@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>MQT_TestMiqote</defName>
+		<label>miqote</label>
+		<race>MQT_Miqote</race>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<chemicalAddictionChance>0.06</chemicalAddictionChance>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.08</techHediffsChance>
+		<techHediffsMoney>300~1000</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>8~14</initialResistanceRange>
+	</PawnKindDef>
+
+</Defs>

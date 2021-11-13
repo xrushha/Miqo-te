@@ -7,6 +7,7 @@
     <description>tbd</description>
     <alienRace>
       <generalSettings>
+	    <maleGenderProbability>0.35</maleGenderProbability>
 	    <allowHumanBios>true</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
@@ -16,12 +17,12 @@
             <customPortraitHeadDrawSize>(0.95, 0.95)</customPortraitHeadDrawSize>
           <bodyAddons>
             <li>
-              <bodyPart>right ear</bodyPart>
-              <path>CatEar</path>
+              <bodyPart>left ear</bodyPart>
+              <path>Things/Pawn/Miqote/ERN_miqote_ear_left/ERN_miqote_ear_left</path>
               <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <alignWithHead>true</alignWithHead>
-              <drawSize>0.45</drawSize>
+              <drawSize>1.0</drawSize>
               <offsets>
                 <north>
 				  <layerOffset>-0.27</layerOffset>
@@ -52,27 +53,65 @@
 			  <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
-              <bodyPart>MQT_MiqoteTail</bodyPart>
-              <path>CatTail</path>
-              <inFrontOfBody>false</inFrontOfBody>
+              <bodyPart>right ear</bodyPart>
+              <path>Things/Pawn/Miqote/ERN_miqote_ear_right/ERN_miqote_ear_right</path>
+              <inFrontOfBody>true</inFrontOfBody>
               <layerInvert>false</layerInvert>
-              <alignWithHead>false</alignWithHead>
-              <drawSize>0.45</drawSize>
+              <alignWithHead>true</alignWithHead>
+              <drawSize>1.0</drawSize>
               <offsets>
                 <north>
 				  <layerOffset>-0.27</layerOffset>
                   <bodyTypes>
-                    <Female>(0, 0)</Female>
+				    <Male>(0.02, 0)</Male>
+                    <Female>(0.02, 0)</Female>
+					<Thin>(0.02, 0)</Thin>
+					<Hulk>(0.02, 0)</Hulk>
+					<Fat>(0.02, 0)</Fat>
                   </bodyTypes>
                 </north>
                 <south>
                   <layerOffset>-0.27</layerOffset>
                   <bodyTypes>
-                    <Female>(0, 0)</Female>
+				    <Male>(0.02, 0)</Male>
+                    <Female>(0.02, 0)</Female>
+					<Thin>(0.02, 0)</Thin>
+					<Hulk>(0.02, 0)</Hulk>
+					<Fat>(0.02, 0)</Fat>
                   </bodyTypes>
                 </south>
                 <east>
                   <layerOffset>-0.27</layerOffset>
+                  <bodyTypes>
+                    <Female>(0, 0)</Female>
+                  </bodyTypes>
+                </east>
+              </offsets>
+              <drawnInBed>true</drawnInBed>
+              <drawnDesiccated>true</drawnDesiccated>
+              <colorChannel>hair</colorChannel>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+				<li>UpperHead</li>
+              </hiddenUnderApparelFor>
+			  <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+            </li>
+            <li>
+              <bodyPart>MQT_MiqoteTail</bodyPart>
+              <path>Things/Pawn/Miqote/ERN_miqote_tail/ERN_miqote_tail</path>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <alignWithHead>false</alignWithHead>
+              <drawSize>1.0</drawSize>
+              <offsets>
+                <north>
+				  <layerOffset>-0.7</layerOffset>
+                  <bodyTypes>
+                    <Female>(0, 0)</Female>
+                  </bodyTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.7</layerOffset>
                   <bodyTypes>
                     <Female>(0, 0)</Female>
                   </bodyTypes>
@@ -93,7 +132,6 @@
             <li>Narrow_Wide</li>
           </aliencrowntypes>
           <useGenderedHeads>true</useGenderedHeads>
-		  <useGenderedBodies>true</useGenderedBodies>
         </alienPartGenerator>
       </generalSettings>
             <styleSettings>
