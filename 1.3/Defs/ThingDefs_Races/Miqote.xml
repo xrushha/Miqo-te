@@ -117,11 +117,11 @@
                 <east>
                   <layerOffset>-0.25</layerOffset>
                   <bodyTypes>
-				    <Male>(0.14, -0.13)</Male>
-                    <Female>(0.14, -0.13)</Female>
-					<Thin>(0.14, -0.13)</Thin>
-					<Hulk>(0.25, -0.23)</Hulk>
-					<Fat>(0.3, -0.13)</Fat>
+				    <Male>(0.15, -0.20)</Male>
+                    <Female>(0.21, -0.17)</Female>
+					<Thin>(0.17, -0.2)</Thin>
+					<Hulk>(0.3, -0.24)</Hulk>
+					<Fat>(0.4, -0.18)</Fat>
                   </bodyTypes>
                 </east>
               </offsets>
