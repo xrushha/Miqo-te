@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="RE_Asari">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="MQT_Miqote">
     <defName>MQT_Miqote</defName>
     <label>miqo'te</label>
     <description>tbd</description>
     <alienRace>
       <generalSettings>
-	    <maleGenderProbability>0.35</maleGenderProbability>
+	    <maleGenderProbability>0.25</maleGenderProbability>
 	    <allowHumanBios>true</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
@@ -46,10 +46,6 @@
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>true</drawnDesiccated>
               <colorChannel>hair</colorChannel>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-				<li>UpperHead</li>
-              </hiddenUnderApparelFor>
 			  <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
@@ -90,10 +86,6 @@
               <drawnInBed>true</drawnInBed>
               <drawnDesiccated>true</drawnDesiccated>
               <colorChannel>hair</colorChannel>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-				<li>UpperHead</li>
-              </hiddenUnderApparelFor>
 			  <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
             </li>
             <li>
