@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+		<operations>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <MQT_MiqoteMercenary_Gunner>2</MQT_MiqoteMercenary_Gunner>
+          <MQT_MiqoteVillager>1</MQT_MiqoteVillager>
+          <MQT_MiqoteTown_Guard>3</MQT_MiqoteTown_Guard>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <MQT_MiqoteMercenary_Gunner>2</MQT_MiqoteMercenary_Gunner>
+          <MQT_MiqoteVillager>1</MQT_MiqoteVillager>
+          <MQT_MiqoteTown_Guard>3</MQT_MiqoteTown_Guard>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[3]/guards</xpath>
+        <value>
+          <MQT_MiqoteMercenary_Gunner>2</MQT_MiqoteMercenary_Gunner>
+          <MQT_MiqoteVillager>1</MQT_MiqoteVillager>
+          <MQT_MiqoteTown_Guard>3</MQT_MiqoteTown_Guard>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <MQT_MiqoteMercenary_Gunner>2</MQT_MiqoteMercenary_Gunner>
+          <MQT_MiqoteVillager>1</MQT_MiqoteVillager>
+          <MQT_MiqoteTown_Guard>3</MQT_MiqoteTown_Guard>
+        </value>
+      </li>
+	  
+	  <!-- ===================================== -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <MQT_MiqoteDrifter>2</MQT_MiqoteDrifter>
+          <MQT_MiqotePirate>2</MQT_MiqotePirate>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <MQT_MiqotePirate>2</MQT_MiqotePirate>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[6]/options</xpath>
+        <value>
+          <MQT_MiqoteDrifter>2</MQT_MiqoteDrifter>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <MQT_MiqotePirate>2</MQT_MiqotePirate>
+        </value>
+      </li>
+	  
+	  <!-- ================================== -->
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+          <MQT_MiqoteTribal_Warrior>1</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Warrior>2</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+          <MQT_MiqoteTribal_Warrior>2</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+	
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[5]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+          <MQT_MiqoteTribal_Warrior>2</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[6]/guards</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+          <MQT_MiqoteTribal_Warrior>2</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+          <MQT_MiqoteTribal_Warrior>2</MQT_MiqoteTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[8]/options</xpath>
+        <value>
+          <MQT_MiqoteTribal_Archer>2</MQT_MiqoteTribal_Archer>
+        </value>
+      </li>
+
+		</operations>
+	</Operation>
+
+</Patch>
