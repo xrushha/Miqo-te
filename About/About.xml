@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
  <ModMetaData>
-	<name>Miqo'te</name>
+	<name>Erin's Miqo'te</name>
 	<author>Erin, xrushha</author>
 	<url></url>
     <supportedVersions>
@@ -14,7 +14,7 @@
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>This mod adds a new race - Miqo'te.</description>
+	<description>This mod adds a new race - Miqo'te, from FFXIV.</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld.Core</li>
 		<li>erdelf.HumanoidAlienRaces</li>

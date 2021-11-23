@@ -4,10 +4,10 @@
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="MQT_Miqote">
     <defName>MQT_Miqote</defName>
     <label>miqo'te</label>
-    <description>tbd</description>
+    <description>The Miqo'te are a race of xenohumans first recorded by the Ordo Historia on the world of Eorzea, although their origins are shrouded in mystery, but certain biological adaptations, particularly the presence of two major ethnicities and cultural groupings defined by a diurnal or nocturnal preference suggest that yet another world may have been their home. All Miqo'te have feline ears and tails, a sharp sense of smell and powerful leg muscles making them natural hunters. A quirk resulting from their gene-engineered origins means that male Miqo’te are exceedingly rare, representing about one-tenth of the population.</description>
     <alienRace>
       <generalSettings>
-	    <maleGenderProbability>0.25</maleGenderProbability>
+	    <maleGenderProbability>0.10</maleGenderProbability>
 	    <allowHumanBios>true</allowHumanBios>
 		<humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
