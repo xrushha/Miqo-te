@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerMiqoteMale</defName>
+		<rulePack>
+			<rulesStrings>
+			<!-- sun fixed-->
+				<li>name->[SunMFirst] [SunLast]</li>
+				
+				<!-- sun generated -->
+				
+				<!-- moon fixed-->
+				<li>name->[MoonMFirst] [MoonLast]</li>
+				<!-- moon generated -->
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>SunMFirst</keyword>
+					<path>Names/Sun_Male_First</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>SunMLast</keyword>
+					<path>Names/Sun_Male_Last</path>
+				</li>			
+				
+				<li Class="Rule_File">
+					<keyword>MoonMFirst</keyword>
+					<path>Names/Moon_Male_First</path>
+				</li>
+				
+				
+				<li Class="Rule_File">
+					<keyword>MoonLast</keyword>
+					<path>Names/Moon_Last</path>
+				</li>
+<!-- 				<li Class="Rule_File">
+					<keyword>Tribe</keyword>
+					<path>Tribe</path>
+				</li> -->
+				
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>NamerMiqoteFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[SunFFirst] [SunFLast]</li>
+				<li>name->[MoonFFirst] [MoonLast]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>SunFFirst</keyword>
+					<path>Names/Sun_Female_First</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>SunFLast</keyword>
+					<path>Names/Sun_Female_Last</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>MoonFFirst</keyword>
+					<path>Names/Moon_Female_First</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>MoonLast</keyword>
+					<path>Names/Moon_Last</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

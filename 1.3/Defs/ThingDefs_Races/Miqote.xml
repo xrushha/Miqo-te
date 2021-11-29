@@ -231,7 +231,8 @@
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>80</lifeExpectancy>
       <leatherDef>Leather_Human</leatherDef>
-      <nameCategory>HumanStandard</nameCategory>
+     <nameGenerator>NamerMiqoteMale</nameGenerator>
+	<nameGeneratorFemale>NamerMiqoteFemale</nameGeneratorFemale>
       <body>MQT_Miqote</body>
       <baseBodySize>0.95</baseBodySize>
       <baseHealthScale>0.95</baseHealthScale>
