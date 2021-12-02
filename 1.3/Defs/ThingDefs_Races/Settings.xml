@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.RaceSettings>
+		<defName>MQT_Miqote</defName>
+		<pawnKindSettings>
+			<startingColonists>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>MQT_Colonist_Miqote</li>
+							</kindDefs>
+							<chance>12</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</startingColonists>
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>MQT_MiqoteSpaceRefugee</li>
+					</kindDefs>
+					<chance>2</chance>
+				</li>
+				<li>
+					<kindDefs>
+						<li>MQT_MiqoteSpaceRefugee_Clothed</li>
+					</kindDefs>
+					<chance>2</chance>
+				</li>
+			</alienrefugeekinds>
+			<alienwandererkinds>
+				<li>
+					<pawnKindEntries>
+						<li>
+							<kindDefs>
+								<li>MQT_MiqoteVillager</li>
+							</kindDefs>
+							<chance>3</chance>
+						</li>
+					</pawnKindEntries>
+					<factionDefs>
+						<li>PlayerColony</li>
+					</factionDefs>
+				</li>
+			</alienwandererkinds>
+		</pawnKindSettings>
+	</AlienRace.RaceSettings>
+
+</Defs>
