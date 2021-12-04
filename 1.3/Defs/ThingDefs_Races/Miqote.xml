@@ -91,7 +91,7 @@
             <li>
               <bodyPart>MQT_MiqoteTail</bodyPart>
               <path>Things/Pawn/Miqote/ERN_miqote_tail/ERN_miqote_tail</path>
-              <inFrontOfBody>true</inFrontOfBody>
+              <inFrontOfBody>false</inFrontOfBody>
               <layerInvert>false</layerInvert>
               <alignWithHead>false</alignWithHead>
               <drawSize>1.0</drawSize>
